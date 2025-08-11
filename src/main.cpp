@@ -1,5 +1,5 @@
-#include <print>
+#include <webcpp/log/log.hpp>
 
 int main() {
-    std::println("hello world!");
+    webcpp::log::info("hello world!");
 }
